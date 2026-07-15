@@ -1,6 +1,11 @@
+import java.util.Scanner;
 public class Largest {
     public static void main(String[] args) {
-        int a=10,b=20,c=3;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter 3 values:");
+        double a=sc.nextDouble();
+        double b=sc.nextDouble();
+        double c=sc.nextDouble();
         if(a>b&&a>c){
             System.out.println("A is largest");
         }
